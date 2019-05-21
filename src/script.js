@@ -1,0 +1,3 @@
+var taskApp = new Vue({
+  
+});
