@@ -15,5 +15,10 @@ var taskApp = new Vue({
 
       }
     },
+    deleteTask: function(task) {
+      this.tasks.splice(this.tasks.indexOf(task), 1)
+
+    },
+    
   }
 });
