@@ -1,0 +1,50 @@
+body{
+    background: #fff;
+}
+
+#wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+h1,h2, #addTask{
+  text-align: center;
+}
+
+#taskApp table{
+  text-align: center;
+}
+
+#taskApp th{
+  border: 1px solid black;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 15px;
+  border-bottom: 1px solid #000;
+}
+
+#taskApp td{
+  border-bottom: 1px solid #000;
+  word-wrap: break-word;
+  max-width: 200px;
+}
+
+#delButton{
+  background: red;
+  color: #fff;
+  border: 1px solid darkred;
+  border-radius: 5px;
+}
+
+#textSize {
+  width: 400px;
+}
+
+#addButton{
+  width: 72px;
+  background: green;
+  color: #fff;
+  border: 1px solid darkred;
+  border-radius: 3px;
+}
