@@ -14,3 +14,12 @@ h1,h2, #addTask{
 #taskApp table{
   text-align: center;
 }
+
+#taskApp th{
+  border: 1px solid black;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 15px;
+  border-bottom: 1px solid #000;
+}
