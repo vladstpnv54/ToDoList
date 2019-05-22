@@ -36,3 +36,11 @@ h1,h2, #addTask{
   border: 1px solid darkred;
   border-radius: 5px;
 }
+
+#addButton{
+  width: 72px;
+  background: green;
+  color: #fff;
+  border: 1px solid darkred;
+  border-radius: 3px;
+}
