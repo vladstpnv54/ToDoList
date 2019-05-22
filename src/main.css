@@ -37,6 +37,10 @@ h1,h2, #addTask{
   border-radius: 5px;
 }
 
+#textSize {
+  width: 400px;
+}
+
 #addButton{
   width: 72px;
   background: green;
