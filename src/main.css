@@ -1,0 +1,16 @@
+body{
+    background: #fff;
+}
+
+#wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+h1,h2, #addTask{
+  text-align: center;
+}
+
+#taskApp table{
+  text-align: center;
+}
