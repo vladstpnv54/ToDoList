@@ -23,3 +23,16 @@ h1,h2, #addTask{
   font-size: 15px;
   border-bottom: 1px solid #000;
 }
+
+#taskApp td{
+  border-bottom: 1px solid #000;
+  word-wrap: break-word;
+  max-width: 200px;
+}
+
+#delButton{
+  background: red;
+  color: #fff;
+  border: 1px solid darkred;
+  border-radius: 5px;
+}
