@@ -18,16 +18,16 @@ h1,h2, #addTask{
 }
 
 #taskApp tr {
-  box-shadow: 
-  0 2px 2px rgba(0, 0, 0, 0.2), 
+  box-shadow:
+  0 2px 2px rgba(0, 0, 0, 0.2),
   0 1px 0 rgba(255, 255, 255, 0.8) inset;
--moz-box-shadow: 
-  0 2px 2px rgba(0, 0, 0, 0.2), 
+-moz-box-shadow:
+  0 2px 2px rgba(0, 0, 0, 0.2),
   0 1px 0 rgba(255, 255, 255, 0.8) inset;
--webkit-box-shadow: 
-  0 2px 2px rgba(0, 0, 0, 0.2), 
+-webkit-box-shadow:
+  0 2px 2px rgba(0, 0, 0, 0.2),
   0 1px 0 rgba(255, 255, 255, 0.8) inset;
-background: 
+background:
   linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0));
 }
 
@@ -38,16 +38,16 @@ background:
   padding-right: 80px;
   font-size: 17px;
   border-bottom: 1px solid #000;
-  box-shadow: 
-	  0 2px 2px rgba(0, 0, 0, 0.2), 
+  box-shadow:
+	  0 2px 2px rgba(0, 0, 0, 0.2),
 	  0 1px 0 rgba(255, 255, 255, 0.8) inset;
-  -moz-box-shadow: 
-	  0 2px 2px rgba(0, 0, 0, 0.2), 
+  -moz-box-shadow:
+	  0 2px 2px rgba(0, 0, 0, 0.2),
 	  0 1px 0 rgba(255, 255, 255, 0.8) inset;
-  -webkit-box-shadow: 
-	  0 2px 2px rgba(0, 0, 0, 0.2), 
+  -webkit-box-shadow:
+	  0 2px 2px rgba(0, 0, 0, 0.2),
 	  0 1px 0 rgba(255, 255, 255, 0.8) inset;
-  background: 
+  background:
 	  linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0));
 }
 
@@ -59,16 +59,16 @@ background:
 
 #delButton {
   border-radius: 20px;
-  box-shadow: 
-	  0 2px 2px rgba(0, 0, 0, 0.2), 
+  box-shadow:
+	  0 2px 2px rgba(0, 0, 0, 0.2),
 	  0 1px 0 rgba(255, 255, 255, 0.8) inset;
-  -moz-box-shadow: 
-	  0 2px 2px rgba(0, 0, 0, 0.2), 
+  -moz-box-shadow:
+	  0 2px 2px rgba(0, 0, 0, 0.2),
 	  0 1px 0 rgba(255, 255, 255, 0.8) inset;
-  -webkit-box-shadow: 
-	  0 2px 2px rgba(0, 0, 0, 0.2), 
+  -webkit-box-shadow:
+	  0 2px 2px rgba(0, 0, 0, 0.2),
 	  0 1px 0 rgba(255, 255, 255, 0.8) inset;
-  background: 
+  background:
 	  linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0));
 }
 
@@ -82,16 +82,16 @@ background:
   border-radius: 20px;
   padding: 5px 8px;
   color: #333;
-  box-shadow: 
-    inset 0 2px 0 rgba(0,0,0,.2), 
+  box-shadow:
+    inset 0 2px 0 rgba(0,0,0,.2),
     0 0 4px rgba(0,0,0,0.1);
 }
- 
+
 #textSize:focus {
   outline: none;
-  box-shadow: 
-    inset 0 2px 0 rgba(0,0,0,.2), 
-    0 0 4px rgba(0,0,0,0.1), 
+  box-shadow:
+    inset 0 2px 0 rgba(0,0,0,.2),
+    0 0 4px rgba(0,0,0,0.1),
     0 0 5px 1px #51CBEE;
 }
 
@@ -100,8 +100,8 @@ background:
   width: 55px;
   height: 50px;
   margin-left: 690px;
-  font-size: 42px; 
-  font-weight: ; 
+  font-size: 42px;
+  font-weight: ;
   content: "";
   position: absolute;
   top: -6px;
@@ -109,15 +109,54 @@ background:
   right: -6px;
   left: -6px;
   border-radius: 50%;
-  box-shadow: 
-	  0 2px 2px rgba(0, 0, 0, 0.2), 
+  box-shadow:
+	  0 2px 2px rgba(0, 0, 0, 0.2),
 	  0 1px 0 rgba(255, 255, 255, 0.8) inset;
-  -moz-box-shadow: 
-	  0 2px 2px rgba(0, 0, 0, 0.2), 
+  -moz-box-shadow:
+	  0 2px 2px rgba(0, 0, 0, 0.2),
 	  0 1px 0 rgba(255, 255, 255, 0.8) inset;
-  -webkit-box-shadow: 
-	  0 2px 2px rgba(0, 0, 0, 0.2), 
+  -webkit-box-shadow:
+	  0 2px 2px rgba(0, 0, 0, 0.2),
 	  0 1px 0 rgba(255, 255, 255, 0.8) inset;
-  background: 
+  background:
 	  linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0));
+    transition: .5s;
+}
+
+#deleteAll {
+  margin-top: 0px;
+  width: 100px;
+  height: 40px;
+  margin-left: 757px;
+  font-size: 18px;
+  font-weight: ;
+  content: "";
+  font-weight: bold;
+  position: absolute;
+  top: -6px;
+  bottom: -6px;
+  right: -6px;
+  left: -6px;
+  border-radius: 20px;
+  box-shadow:
+    0 2px 2px rgba(0, 0, 0, 0.2),
+    0 1px 0 rgba(255, 255, 255, 0.8) inset;
+  -moz-box-shadow:
+    0 2px 2px rgba(0, 0, 0, 0.2),
+    0 1px 0 rgba(255, 255, 255, 0.8) inset;
+  -webkit-box-shadow:
+    0 2px 2px rgba(0, 0, 0, 0.2),
+    0 1px 0 rgba(255, 255, 255, 0.8) inset;
+  background:
+    linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0));
+    transition: .5s;
+}
+
+#deleteAll:hover{
+  background: red;
+
+}
+
+#addButton:hover{
+  background: #00FF00;
 }
