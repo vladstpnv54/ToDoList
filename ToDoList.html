@@ -15,14 +15,13 @@
             <div id="taskApp">
                 <h1>Todo List</h1>
                 <div>
-                    <h2>Add New Task</h2>
                     <form id='addTask' v-on:submit='addTask'>
                         <div>
-                            <input id='textSize' type="text" v-model='tasks.name'>
-                                <input id="addButton" type="submit" value='Add'>
+                            <input id='textSize' type="text" v-model='tasks.name' placeholder="Add new task...">
+                                <input id="addButton" type="submit" value='+'>
                                     </div>
                     </form>
-                    &nbsp;
+                    <br>
                 </div>
                 <table>
                     <thead>
