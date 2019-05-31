@@ -15,7 +15,7 @@
         <div>
           <form id='addTask' submit='#'>
             <div>
-              <input id='textSize' type="text" v-model='tasks.name' placeholder="Add new task...">
+              <input id='textSize' type="text" v-model='tasks.name' placeholder="Add new task..." autocomplete="off">
               <input id="addButton" type="submit" value='+' @click='addTask'>
               <input id='deleteAll' type="submit" value="Delete all" @click = 'deleteAll'>
             </div>
