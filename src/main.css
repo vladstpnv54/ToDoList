@@ -135,6 +135,10 @@ h1,h2, #addTask{
   transition: .5s;
 }
 
+#addButton:hover{
+  background: #00FF00;
+}
+
 #deleteAll {
   position: absolute;
   top: -6px;
@@ -168,9 +172,4 @@ h1,h2, #addTask{
 
 #deleteAll:hover{
   background: red;
-
-}
-
-#addButton:hover{
-  background: #00FF00;
 }
